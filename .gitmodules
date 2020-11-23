@@ -1,10 +1,7 @@
-[submodule "themes/themes/hugo-PaperMod"]
-	path = themes/themes/hugo-PaperMod
-	url = https://github.com/adityatelange/hugo-PaperMod.git
-[submodule "quickstart/themes/themes/hugo-PaperMod"]
-	path = quickstart/themes/themes/hugo-PaperMod
-	url = https://github.com/adityatelange/hugo-PaperMod.git
 [submodule "safatalfahim.github.io"]
 	path = safatalfahim.github.io
 	url = https://github.com/safatalfahim/safatalfahim.github.io
 	branch = main
+[submodule "themes/hugo-PaperMod"]
+	path = themes/hugo-PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
