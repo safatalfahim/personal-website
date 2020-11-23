@@ -1,0 +1,85 @@
+baseURL: "https://safatalfahim.github.io/"
+title: Safat Al Fahim
+paginate: 8
+theme: hugo-PaperMod
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: Archives
+          url: /archives/
+          weight: 5
+        - name: Tags
+          url: /tags/
+          weight: 10
+
+params:
+  env: production
+  description: "Safat Al Fahim - https://github.com/safatalfahim/"
+  author: Me
+  ShowReadingTime: true
+  defaultTheme: auto
+  ShowShareButtons: true
+  displayFullLangName: true
+  assets:
+     favicon: 'favicon.ico'
+
+  profileMode:
+    enabled: false
+    title: PaperMod
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: >
+      Welcome to my personal website.
+      - I'm a ...
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/safatalfahim/"
+    - name: github
+      url: "https://github.com/safatalfahim"
+    - name: spotify
+      url: "https://open.spotify.com/user/9fkqh9ypw14xph7am2agfh1l3"
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
