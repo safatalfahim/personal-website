@@ -19,4 +19,4 @@ cover:
 comments: false
 ---
 
-HELLO BITCH
+Hi there, I'm Safat, a student at Jacobs University Bremen.
